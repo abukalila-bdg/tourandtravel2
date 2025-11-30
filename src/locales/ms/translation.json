@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Utama",
+    "destinations": "Destinasi",
+    "packages": "Pakej",
+    "contact": "Hubungi"
+  },
+  "hero": {
+    "title": "Temui Keindahan Bandung",
+    "subtitle": "Gerbang premium anda ke Paris of Java. Khas untuk rakan-rakan dari Malaysia & Singapura.",
+    "cta": "Lihat Pakej"
+  },
+  "destinations": {
+    "title": "Destinasi Popular",
+    "subtitle": "Terokai tempat-tempat paling popular di Bandung",
+    "lembang": "Udara sejuk dan pemandangan alam yang indah.",
+    "rumahmode": "Outlet fesyen ikonik di Bandung.",
+    "dusunbambu": "Taman rekreasi keluarga dengan tempat makan alam semula jadi.",
+    "trunojoyo": "Jalan terkenal untuk membeli-belah dan kulinari tempatan."
+  },
+  "packages": {
+    "title": "Pakej Premium Kami",
+    "subtitle": "Semua pakej termasuk Penjemputan Lapangan Terbang Jakarta",
+    "book": "Tempah Sekarang",
+    "items": [
+      {
+        "title": "Percutian Alam Lembang",
+        "desc": "Nikmati udara segar dan kehijauan Lembang.",
+        "highlights": ["Floating Market", "Farmhouse Lembang", "Orchid Forest", "Penjemputan Airport Jakarta"]
+      },
+      {
+        "title": "Syurga Membeli-belah",
+        "desc": "Beli-belah sakan di factory outlet terbaik.",
+        "highlights": ["Rumah Mode", "Jalan Trunojoyo", "Kartika Sari (Oleh-oleh)", "Penjemputan Airport Jakarta"]
+      },
+      {
+        "title": "Keriangan Keluarga",
+        "desc": "Percutian sempurna untuk keluarga dengan anak-anak.",
+        "highlights": ["Dusun Bambu", "Lembang Park & Zoo", "Trans Studio Bandung", "Penjemputan Airport Jakarta"]
+      },
+      {
+        "title": "Bandung Terlengkap",
+        "desc": "3 Hari 2 Malam menerokai yang terbaik di Bandung.",
+        "highlights": ["Kawah Putih", "Glamping Lakeside", "Jalan Braga", "Penjemputan Airport Jakarta"]
+      },
+      {
+        "title": "Trip Kustom",
+        "desc": "Reka jadual perjalanan Bandung anda sendiri.",
+        "highlights": ["Pilih destinasi anda", "Masa fleksibel", "Kereta & pemandu peribadi", "Penjemputan Airport Jakarta"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Sedia untuk Meneroka Bandung?",
+    "subtitle": "Hubungi kami sekarang untuk menempah perjalanan anda. Kami bertutur Bahasa Inggeris, Melayu, dan Indonesia.",
+    "button": "Chat di WhatsApp"
+  },
+  "footer": {
+    "about": "Menyediakan pengalaman perjalanan terbaik di Bandung untuk tetamu kami dari Malaysia dan Singapura.",
+    "links": "Pautan Pantas",
+    "contact": "Hubungi"
+  }
+}

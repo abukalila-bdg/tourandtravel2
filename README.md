@@ -4,17 +4,20 @@ A premium landing page for a Bandung tour and travel agency, targeting tourists 
 
 ## Features
 
-- **Multi-language Support**: English, Bahasa Melayu, Bahasa Indonesia.
+- **Multi-language Support**: English, Bahasa Melayu, Bahasa Indonesia using i18next.
 - **Responsive Design**: Optimized for mobile, tablet, and desktop.
 - **Premium Aesthetics**: Soft Blue & White theme with smooth animations.
-- **Dynamic Content**: JavaScript-based localization for instant language switching.
+- **Dynamic Content**: i18next-based internationalization for instant language switching.
+- **Automatic Language Detection**: Detects browser language automatically.
 - **WhatsApp Integration**: Direct booking via WhatsApp with pre-filled messages.
 
 ## Tech Stack
 
 - **Vite**: Fast build tool and development server.
 - **Tailwind CSS v4**: Utility-first CSS framework for styling.
-- **Vanilla JavaScript**: Lightweight logic for localization and interactivity.
+- **i18next**: Industry-standard internationalization library.
+- **i18next-browser-languagedetector**: Automatic language detection.
+- **Vanilla JavaScript**: Lightweight logic for interactivity.
 
 ## Setup & Installation
 
@@ -70,12 +73,33 @@ This project is configured for automated deployment to GitHub Pages using GitHub
 
 ## Project Structure
 
-- `index.html`: Main HTML file.
-- `src/main.js`: Localization logic and dynamic content rendering.
+- `index.html`: Main HTML file with data-i18n attributes for localization.
+- `src/i18n.js`: i18next configuration and initialization.
+- `src/main.js`: Dynamic content rendering and language switching logic.
 - `src/style.css`: Tailwind CSS imports and custom styles.
+- `src/locales/`: Translation files organized by language.
+  - `en/translation.json`: English translations.
+  - `ms/translation.json`: Bahasa Melayu translations.
+  - `id/translation.json`: Bahasa Indonesia translations.
 - `package.json`: Project metadata and scripts.
+
+## i18next Integration
+
+### How it Works:
+1. **Automatic Detection**: Browser language is detected automatically
+2. **Fallback**: Falls back to English if language is not available
+3. **Persistence**: Language preference is saved in localStorage
+4. **Dynamic Updates**: Content updates without page refresh
+
+### Adding New Languages:
+1. Create a new folder in `src/locales/` (e.g., `th/` for Thai)
+2. Add `translation.json` with translated content
+3. Update language buttons in HTML
+4. Add language code to `langDisplay` object in `main.js`
 
 ## Customization
 
-- **Add/Edit Packages**: Modify the `translations` object in `src/main.js`.
+- **Add/Edit Packages**: Modify the `packages.items` array in translation files.
+- **Add New Translations**: Add new keys to all translation files and use `data-i18n` attribute in HTML.
 - **Change Colors**: Update the CSS variables in `src/style.css`.
+- **Add New Languages**: Follow the steps in "Adding New Languages" section above.

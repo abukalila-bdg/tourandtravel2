@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "packages": "Packages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Discover the Beauty of Bandung",
+    "subtitle": "Your premium gateway to the Paris of Java. Tailored for our friends from Malaysia & Singapore.",
+    "cta": "View Packages"
+  },
+  "destinations": {
+    "title": "Popular Destinations",
+    "subtitle": "Explore the most visited places in Bandung",
+    "lembang": "Cool breeze and scenic nature views.",
+    "rumahmode": "The iconic fashion outlet of Bandung.",
+    "dusunbambu": "Family leisure park with nature dining.",
+    "trunojoyo": "Famous street for local shopping and culinary."
+  },
+  "packages": {
+    "title": "Our Premium Packages",
+    "subtitle": "All packages include Jakarta Airport Pickup",
+    "book": "Book Now",
+    "items": [
+      {
+        "title": "Lembang Nature Retreat",
+        "desc": "Experience the fresh air and greenery of Lembang.",
+        "highlights": ["Floating Market", "Farmhouse Lembang", "Orchid Forest", "Jakarta Airport Pickup"]
+      },
+      {
+        "title": "Bandung Shopping Spree",
+        "desc": "Shop 'til you drop at the best factory outlets.",
+        "highlights": ["Rumah Mode", "Jalan Trunojoyo", "Kartika Sari (Oleh-oleh)", "Jakarta Airport Pickup"]
+      },
+      {
+        "title": "Family Fun Adventure",
+        "desc": "Perfect getaway for families with kids.",
+        "highlights": ["Dusun Bambu", "Lembang Park & Zoo", "Trans Studio Bandung", "Jakarta Airport Pickup"]
+      },
+      {
+        "title": "The Complete Bandung",
+        "desc": "3 Days 2 Nights exploring the best of Bandung.",
+        "highlights": ["Kawah Putih", "Glamping Lakeside", "Braga Street Walk", "Jakarta Airport Pickup"]
+      },
+      {
+        "title": "Custom Trip",
+        "desc": "Design your own perfect Bandung itinerary.",
+        "highlights": ["Choose your destinations", "Flexible timing", "Private car & driver", "Jakarta Airport Pickup"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ready to Explore Bandung?",
+    "subtitle": "Contact us now to book your trip. We speak English, Malay, and Indonesian.",
+    "button": "Chat on WhatsApp"
+  },
+  "footer": {
+    "about": "Providing the best travel experience in Bandung for our Malaysian and Singaporean guests.",
+    "links": "Quick Links",
+    "contact": "Contact"
+  }
+}
